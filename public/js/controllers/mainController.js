@@ -8,7 +8,7 @@ class mainController {
 
         $("#formulaire").click(function(){
           $("#test").show("slow");
-          $("#acheteur").hide("slow");
+          //$("#acheteur").hide("slow");
         });
 
       });
@@ -37,6 +37,7 @@ class mainController {
         this.todoService.delete(todo._id).then(() => {
             this.load()
         })
+
     }
 
 }

@@ -2,22 +2,22 @@
     background-image: url("../img/background_accueil.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
-    margin-top: 1%;
+    height: 92vh;
+    margin-top: 0px;
 }
 
 section {
-  padding-top: 50px;
-  border: 1px white solid;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 25px;
-  line-height: 1.4;
+    padding-top: 50px;
+    border: 1px white solid;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+    line-height: 1.4;
 }
 
 span {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 nav {
@@ -28,16 +28,17 @@ nav {
 }
 
 .logo {
-    width: 3.5%!important;
+    width: 44%!important;
 }
 
-
-#code_postal{
-  color: black;
-  margin-top: 3%;
+#code_postal {
+    color: black;
+    margin-top: 3%;
 }
+
 #acheteur, #vendeur {
     background-color: rgba(139, 105, 20, 0.3);
+    margin-top: 2%;
     width: 100%;
     height: 88vh;
     color: white;
@@ -49,8 +50,9 @@ nav {
     background-size: cover;
     height: 25%;
 }
-#test button{
-  margin: 7% 7% 7% 8%;
+
+#test button {
+    margin: 5% 5% 5% 7%;
 }
 
 a {
@@ -78,10 +80,13 @@ footer {
     text-align: center;
     height: 5vh;
     color: white;
+    font-size: 150%;
 }
 
 .background {
-    background-color: rgba(139, 105, 20, 0.3);
+    background-color: rgba(255, 236, 179, 0.5);
+    height: 88vh;
+    font-size: 35px;
 }
 
 label {
@@ -92,9 +97,11 @@ input[type=text]:focus {
     border-bottom: 1px solid orange !important;
     box-shadow: 0 1px 0 0 orange !important;
 }
-input[type=text]:focus + label {
-     color: orange !important;
-   }
+
+input[type=text]:focus+label {
+    color: orange !important;
+}
+
 .prefix.active {
-        color: orange !important;
-      }
+    color: orange !important;
+}
